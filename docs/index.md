@@ -1,18 +1,18 @@
 # Home
 
-Introducción básica a R
+Introducción básica a Python
 
 ## Material
 
-El material está disponible en el siguiente [repositorio](https://github.com/fralfaro/r_intro), para obtener el código de fuente basta con que ejecutes el siguiente comando:
+El material está disponible en el siguiente [repositorio](https://github.com/fralfaro/DS-Python-Course), para obtener el código de fuente basta con que ejecutes el siguiente comando:
 
 ```
-https://github.com/fralfaro/r_intro
+https://github.com/fralfaro/DS-Python-Course
 ```
 
 ## Contenidos temáticos
 
-* Introducción a R
+* Introducción a Python
 * Nomenclatura
-* Introducción dplyr
-* Introducción ggplot2
+* Introducción Pandas
+* Introducción Seaborn
