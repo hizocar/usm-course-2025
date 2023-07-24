@@ -177,4 +177,35 @@ Debe cambiar:
 
 > **Nota**: Si necesita customizar su repositorio, se recomienda leer el siguiente [link](https://squidfunk.github.io/mkdocs-material/).
 
+## Recomendaciones
 
+Para efectos prácticos, se recomienda tener sus conjunto de datos en **Google Drive**, en donde tenga por un lado
+sus `datasets` y sus `images`. Ver la siguiente [carpeta](https://drive.google.com/drive/folders/1A9uGb7heCV-b8AsFgumhWcRy1SAG8_Ru?usp=sharing) a modo de ejemplo.
+
+<img src="https://drive.google.com/uc?export=view&id=1bzRZwFkhJ2hCvOAz8YoiZsCb7nk636Ee" width = "300" align="center"/>
+
+Debe habilitar la opción `Share -> General access -> Anyone whit the link`, para que otras personas pudan leer 
+los datasets y las imágenes de su carpeta.
+
+<img src="https://drive.google.com/uc?export=view&id=1sfqODPXPKZPGdulwFMspFayKX13CGlD7" width = "300" align="center"/>
+
+1. En Jupyter notebook, para mostrar una imagen, utilizar la siguiente sequencia:
+
+```markdown
+<img src="https://drive.google.com/uc?export=view&id=<ID_IMAGE>" width = "300" align="center"/>
+```
+
+donde `<ID_IMAGE>` corresponde al id de su imagen a compartir desde Google Drive.
+
+2. En Jupyter notebook, para leer un dataframe con pandas, utilizar la siguiente sequencia:
+
+```python
+import pandas as pd
+
+url='<URL_DATASET>'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+
+df = pd.read_csv(url, sep="," )
+```
+
+donde `<URL_DATASET>` corresponde a la URL de su dataset a compartir desde Google Drive.
