@@ -179,8 +179,12 @@ Debe cambiar:
 
 ## Recomendaciones
 
-Para efectos prácticos, se recomienda tener sus conjunto de datos en **Google Drive**, en donde tenga por un lado
-sus `datasets` y sus `images`. Ver la siguiente [carpeta](https://drive.google.com/drive/folders/1A9uGb7heCV-b8AsFgumhWcRy1SAG8_Ru?usp=sharing) a modo de ejemplo.
+Para efectos prácticos, se recomienda tener sus datos (*datasets* e *imágenes*) en **Google Drive**, 
+en donde tenga la información separada en dos carpetas:
+* `datasets`: carpeta con los datasets del curso.
+* `images`: carpeta con las imágenes del curso.
+
+> **Nota**: Ver la siguiente [carpeta](https://drive.google.com/drive/folders/1A9uGb7heCV-b8AsFgumhWcRy1SAG8_Ru?usp=sharing) a modo de ejemplo.
 
 <img src="https://drive.google.com/uc?export=view&id=1bzRZwFkhJ2hCvOAz8YoiZsCb7nk636Ee" width = "300" align="center"/>
 
@@ -189,7 +193,7 @@ los datasets y las imágenes de su carpeta.
 
 <img src="https://drive.google.com/uc?export=view&id=1sfqODPXPKZPGdulwFMspFayKX13CGlD7" width = "300" align="center"/>
 
-1. En Jupyter notebook, para mostrar una imagen, utilizar la siguiente sequencia:
+1. En Jupyter notebook, para mostrar una imagen, se utiliza la siguiente sequencia:
 
 ```markdown
 <img src="https://drive.google.com/uc?export=view&id=<ID_IMAGE>" width = "300" align="center"/>
@@ -197,7 +201,7 @@ los datasets y las imágenes de su carpeta.
 
 donde `<ID_IMAGE>` corresponde al id de su imagen a compartir desde Google Drive.
 
-2. En Jupyter notebook, para leer un dataframe con pandas, utilizar la siguiente sequencia:
+2. En Jupyter notebook, para leer un dataframe con `pandas`, se utiliza la siguiente sequencia:
 
 ```python
 import pandas as pd
