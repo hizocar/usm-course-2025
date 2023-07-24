@@ -46,6 +46,27 @@ donde:
 * `pyproject.toml`: archivo que orquestará el proyecto y sus dependencias.
 * `README.md`: archivo que describe el repositorio.
 
+## Github Settings 
+
+### Actions
+
+1. Ir a `Settings -> Actions -> General`.
+
+<img src="https://drive.google.com/uc?export=view&id=1DkN--ePlAYIsFxBSLPUWmGKJ_C7Nxe-o" width = "300" align="center"/>
+
+2. Marcar las opciones como se muestra en la imagen y guardar sus cambios.
+
+<img src="https://drive.google.com/uc?export=view&id=1Ww6EtcUz8xFHvK0oBc0E8L2KWZ89VQXO" width = "300" align="center"/>
+
+### Pages 
+
+1. Ir a `Settings -> Pages -> GitHub Pages`.
+2. Marcar las opciones como se muestra en la imagen y guardar sus cambios.
+
+<img src="https://drive.google.com/uc?export=view&id=1V0NpRRKPp-lLxWleN8nt-9JeRSGCAfG0" width = "300" align="center"/>
+
+> **Nota**: Primero debe realizar los cambios en `Actions`, realizar un `git push` (de algún archivo) para habilitar esta opción correctamente.
+
 ## Archivos a modificar
 
 ### [Readme.md](README.md)
