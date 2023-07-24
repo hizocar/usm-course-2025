@@ -48,7 +48,7 @@ donde:
 
 ## Archivos a modificar
 
-### Readme.md
+### [Readme.md](README.md)
 
 ```
 ![example workflow](https://github.com/fralfaro/DS-Python-Course/actions/workflows/documentation.yml/badge.svg)
@@ -60,7 +60,7 @@ Debe cambiar:
 * **fralfaro**: nombre de usuario en github.
 * **DS-Python-Course**: nombre del curso.
 
-### `mkdocs.yml`
+### [`mkdocs.yml`](mkdocs.yml)
 
 **Sección**: Project information - Repository
 
@@ -132,7 +132,7 @@ En esta sección se agregan los archivos `.ipynb` que necesita agregar a su docu
 
 ### Otros
 
-#### `pyproject.toml`
+#### [`pyproject.toml`](pyproject.toml)
 
 ```
 [tool.poetry]
@@ -146,7 +146,7 @@ readme = "README.md"
 
 Cambiar `authors` por su nombre y correo personal.
 
-#### `index.md`
+#### [`index.md`](docs/index.md)
 
 ```
 # Home
