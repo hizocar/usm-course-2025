@@ -52,7 +52,7 @@ donde:
 
 1. Ir a `Settings -> Actions -> General`.
 
-<img src="https://drive.google.com/uc?export=view&id=1DkN--ePlAYIsFxBSLPUWmGKJ_C7Nxe-o" width = "500" align="center"/>
+<img src="https://drive.google.com/uc?export=view&id=1DkN--ePlAYIsFxBSLPUWmGKJ_C7Nxe-o" width = "600" align="center"/>
 
 2. Marcar las opciones como se muestra en la imagen y guardar sus cambios.
 
@@ -63,7 +63,7 @@ donde:
 1. Ir a `Settings -> Pages -> GitHub Pages`.
 2. Marcar las opciones como se muestra en la imagen y guardar sus cambios.
 
-<img src="https://drive.google.com/uc?export=view&id=1V0NpRRKPp-lLxWleN8nt-9JeRSGCAfG0" width = "500" align="center"/>
+<img src="https://drive.google.com/uc?export=view&id=1V0NpRRKPp-lLxWleN8nt-9JeRSGCAfG0" width = "600" align="center"/>
 
 > **Nota**: Primero debe realizar los cambios en `Actions`, realizar un `git push` (de algún archivo) para habilitar esta opción correctamente.
 
