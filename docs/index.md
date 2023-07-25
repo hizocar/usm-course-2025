@@ -1,6 +1,4 @@
-# Home
-
-Introducción básica a Python
+# Introducción básica a Python
 
 ## Material
 
