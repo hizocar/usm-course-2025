@@ -17,12 +17,12 @@
 │   │       logo.bmp
 │   │       logo_python.svg
 │   │
+│   │   __init__.py
 │   │   basic.ipynb
 │   │   index.md
 │   │   intro.ipynb
 │   │   pandas.ipynb
 │   │   seaborn.ipynb
-│   │   __init__.py
 │   
 │   .gitignore
 │   LICENSE
