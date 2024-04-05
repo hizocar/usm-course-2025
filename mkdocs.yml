@@ -11,7 +11,6 @@ repo_name: fralfaro/DS-Python-Course
 repo_url: https://github.com/fralfaro/DS-Python-Course
 edit_uri: ''
 
-
 # Markdown extensions
 markdown_extensions:
   - attr_list
@@ -73,7 +72,6 @@ extra:
       link: https://www.linkedin.com/in/faam/
     - icon: fontawesome/solid/globe
       link: https://fralfaro.github.io/portfolio/
-
 
 # Plugins
 plugins:
